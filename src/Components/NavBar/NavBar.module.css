@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Honk&family=Mate:ital@0;1&display=swap');
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding-inline: 1rem ;
+    font-family: "Mate", serif;
+    padding: 20px;
+    background-color: #092635;
+}
+.container > li{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+    color: beige;
+    font-weight: 600;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+.link:hover{
+    color: black;
+    border-radius: 20px; 
+    border: 8px solid white;
+    background-color: white;
+}

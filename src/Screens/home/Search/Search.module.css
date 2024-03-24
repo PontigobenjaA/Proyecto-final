@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Honk&family=Mate:ital@0;1&display=swap');
+.container{
+    padding-inline: 2rem;
+    font-family: "Mate", serif;
+}
+.inputContainer {
+    position: relative;
+  }
+  
+  .input {
+    padding: 10px 30px; 
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+    background-image: url(https://cdn-icons-png.flaticon.com/128/8300/8300918.png);
+    background-size: 25px;
+    background-repeat:no-repeat ;
+    outline: none;
+    background-position-y: center;
+    
+
+  }
+  .btn{
+    margin-left: 2ch;
+    font-size: 16px;
+    border-color: #FFF; 
+    border: 2px solid #fcfcfc;
+    padding: 10px 30px; 
+    border-radius: 5px;
+    color: #464545;
+
+    
+  }
+  .btn:hover{
+    background-color: #cecece;
+    cursor: pointer;
+    transition: all 300ms;
+  }
+  .input:focus {
+    border-color: rgb(255, 255, 255); 
+  }
+  
+  .searchIcon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #999;
+  }
+  
